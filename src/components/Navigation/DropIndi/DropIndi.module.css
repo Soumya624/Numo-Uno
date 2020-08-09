@@ -1,0 +1,14 @@
+li {
+  display: flex;
+  justify-content: space-between;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 10px;
+  padding: 0 5px;
+  margin-bottom: 1.3rem;
+  /* identical to box height */
+
+  color: #7b8591;
+}

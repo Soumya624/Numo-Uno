@@ -1,0 +1,153 @@
+.navContainer {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  z-index: 100;
+}
+
+.innerContainer {
+  position: relative;
+}
+.dropDownContact {
+  position: absolute;
+  left: 60px;
+  top: 20px;
+  width: 220px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.dropDownMessage {
+  position: absolute;
+  left: 60px;
+  top: 179px;
+  width: 220px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+}
+.dropDownDual {
+  position: absolute;
+  left: 60px;
+  top: 260px;
+  width: 220px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+}
+.dropDownCircle {
+  position: absolute;
+  left: 60px;
+  top: 95px;
+  width: 220px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+}
+ul {
+  list-style-type: none;
+}
+
+.heading {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.9rem;
+  margin-bottom: 1.2rem;
+  text-align: left;
+  /* identical to box height */
+
+  color: #4da1ff;
+}
+
+.space1 {
+  height: 20vh;
+}
+
+/*.space2 {
+  height: 25vh;
+}*/
+
+.logoMain {
+  display: flex;
+  margin-top: 15px;
+  justify-content: center;
+  align-items: center;
+}
+.logoMain img {
+  width: 45px;
+}
+.item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+button {
+  background-color: white;
+  border: none;
+  padding: 16px;
+}
+
+.active,
+.arrow {
+  opacity: 0;
+}
+
+.item:hover .active {
+  opacity: 1;
+}
+.item:hover .arrow {
+  opacity: 1;
+}
+
+i {
+  font-size: 35px;
+}
+.content {
+  width: 100%;
+}
+.outer {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10%;
+  width: 90%;
+}
+
+.name {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 39px;
+  /* identical to box height */
+  padding: 20px;
+  color: #26334a;
+}
+
+.avatar {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.user {
+  padding: 10px;
+  font-size: 1.6rem;
+}
+.userDropBtn {
+  padding: 0;
+  position: relative;
+}
+
+.userDropBtn img {
+  width: 16px;
+}
+
+@media screen and (max-width: 400px) {
+  .name {
+    font-size: 20px;
+    margin-left: 30px;
+  }
+}

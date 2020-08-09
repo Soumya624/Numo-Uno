@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600;700&display=swap");
+
+
+.podCast {
+  margin: 0;
+  padding: 0;
+}
+.podHead {
+  background-repeat: no-repeat;
+  background-size: 40% 100%;
+
+  background-position: center;
+}
+.podtitle {
+  width: 4%;
+  height: 5%;
+  margin-left: 1%;
+  margin-top: -4%;
+}
+
+#podText {
+  font-size: 15px;
+  color: #303336;
+
+  margin-top: 10px;
+}
+#podText h4 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #303336;
+  margin-bottom: 15px;
+}
+#custom-buttonb1 {
+  text-align: center;
+  width: 100px;
+  padding: 3px;
+  float: right;
+  border-radius: 10px;
+
+  border: 0px solid white;
+  background-color: white;
+  color: black;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.514));
+}
+
+#custom-buttonb2 {
+  text-align: center;
+  float: right;
+  right: 0;
+  padding: 3px;
+  width: 100px;
+  border: 0px solid white;
+  border-top-left-radius: 10px;
+
+  border-radius: 10px;
+  margin-left: -10px;
+  z-index: 2;
+  position: relative;
+  background-color: black;
+  color: #ffd700;
+  filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 00.514));
+}
+.custom-buttonb1:hover {
+  background-color: black;
+  color: #ffd700;
+  transition: ease 0.5s;
+}
+
+.ninja-header {
+  font-size: 15px;
+  font-family: Montserrat;
+  margin-bottom: 30px;
+  padding: 20px;
+}
+
+#pod-logo {
+  text-align: center;
+  top: 10px;
+  position: absolute;
+  margin-left: 1%;
+  width: 5%;
+}
+#podTitle h1 {
+  margin-top: 5%;
+  font-size: 70px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-family: Josefin Sans;
+  font-weight: 700;
+}
+#podTitle h3 {
+  font-size: 30px;
+  font-family: Josefin Sans;
+  font-weight: 600;
+  margin-bottom: 5%;
+}
+#podRow {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  margin-left: 7%;
+  margin-right: 7%;
+}
+.first {
+  margin-top: 5%;
+}
+.Poppost {
+  border: 0px solid white;
+
+  & h2 {
+    font-size: 30px;
+    word-spacing: 2px;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    text-shadow: 1px 1px grey;
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 600;
+    color: rgb(11, 11, 65);
+  }
+}
+#cardPod {
+  display: flex;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#podCard {
+  border: 0px solid white;
+
+  margin-bottom: 10%;
+  margin-left: 5%;
+  margin-right: 2%;
+  height: 500px;
+  position: relative;
+
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.048),
+    0 6px 20px 0 rgba(0, 0, 0, 0.062);
+}
+
+#podCard:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#podLive {
+  max-width: 100%;
+  max-height: 60%;
+  border-radius: 10px;
+  background-color: black;
+  padding: 1%;
+}
+.popText {
+  float: left;
+  width: 50%;
+  margin-top: 10%;
+  text-align: left;
+
+  font-family: Montserrat;
+  font-size: 14px;
+  color: black;
+}
+.popText h3 a {
+  font-size: 15px;
+  color: black;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+
+.popRow {
+  margin-top: 2px;
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 100%;
+}
+
+.popImg {
+  width: 50%;
+  padding: 10px;
+  float: left;
+}
+@media screen and (max-width: 900px) {
+  #podRow {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 765px) {
+  #podRow {
+    display: grid;
+    grid-template-columns: (1, 1fr);
+  }
+  .podtitle {
+    width: 8%;
+
+    position: absolute;
+    top: 30px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .popRow {
+    display: block;
+  }
+  .popText {
+    width: 100%;
+  }
+  .popImg {
+    width: 60%;
+  }
+  #podTitle {
+    font-size: 30px;
+  }
+  .podHead {
+    background-position: 50% 40%;
+  }
+  #podRow {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .podtitle {
+    width: 15%;
+
+    position: absolute;
+    top: 20px;
+  }
+}
