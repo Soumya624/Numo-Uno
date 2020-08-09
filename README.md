@@ -1,4 +1,4 @@
-Test deployed @ https://test-numouno.herokuapp.com
+Test deployed @ https://numo-uno-frontend.herokuapp.com/
 
 Production deployed @ https://numouno.tech
 
