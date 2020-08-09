@@ -1,5 +1,5 @@
 Test deployed @ https://numo-uno-frontend.herokuapp.com/
-
+And https://master.d1irig95qyvz8m.amplifyapp.com/
 Production deployed @ https://numouno.tech
 
 ### Installation and Setup
