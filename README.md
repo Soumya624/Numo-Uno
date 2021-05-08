@@ -1,5 +1,4 @@
-Test deployed @ https://master.d1irig95qyvz8m.amplifyapp.com/
-Production deployed @ https://numouno.tech
+https://numo-uno-project.herokuapp.com/
 
 ### Installation and Setup
 - To install packages `npm install`
